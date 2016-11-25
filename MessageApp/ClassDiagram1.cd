@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MessageApp.App">
+    <Position X="13" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.Models.CountryCode">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAgAAAAAAIAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CountryCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.Models.DeliveryStatus">
+    <Position X="15.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAACAAAAAA=</HashCode>
+      <FileName>Models\DeliveryStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.Models.Message">
+    <Position X="11.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAEAACAAAAAggADAAAAAAAJAQAEAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.Properties.Resources">
+    <Position X="0.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.Properties.Settings">
+    <Position X="3" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.ServiceCommunicator.MessageServiceBase" BaseTypeListCollapsed="true">
+    <Position X="1" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAAAAAABAAhAAAAAAAAACAAAAAIAAAAAAAAAAAQ=</HashCode>
+      <FileName>ServiceCommunicator\MessageServiceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageApp.ViewModels.Commands.DelegateCommand" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Commands\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageApp.ViewModels.MessagesViewModel">
+    <Position X="4" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAhAQBAAiA=</HashCode>
+      <FileName>ViewModels\MessagesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.ViewModels.NewMessageViewModel">
+    <Position X="7.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAAAAAQAAEAGAAAAAAAAAAQAAAEAAAIgBAAAA=</HashCode>
+      <FileName>ViewModels\NewMessageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.ViewModels.OperationResultArgs">
+    <Position X="8.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\OperationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageApp.ViewModels.ViewModelBase">
+    <Position X="5.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAIAAAAACgAAIQAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageApp.Views.Converters.BoolToVisibilityConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="13.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Converters\BoolToVisibilityConvertor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageApp.Views.Converters.DeliveryCodeToColourConvertor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="12.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Converters\DeliveryCodeToColourConvertor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageApp.Views.Converters.DeliveryCodeToTextConvertor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="11.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Converters\DeliveryCodeToTextConvertor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageApp.Views.Converters.MessageLengthToColourConvertor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="11.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Converters\MessageLengthToColourConvertor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageApp.Views.Converters.MessageLengthToTextConvertor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="12.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Converters\MessageLengthToTextConvertor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MessageApp.Views.Converters.OperationResultToImageConvertor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="13.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Converters\OperationResultToImageConvertor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MessageApp.ServiceCommunicator.IWebCommunicatorAsync&lt;T&gt;">
+    <Position X="1" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceCommunicator\IWebCommunicatorAsync.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MessageApp.Models.DeliveryStatusCode">
+    <Position X="14" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAIAEAACA=</HashCode>
+      <FileName>Models\DeliveryStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="MessageApp.ViewModels.Commands.MyPredecate" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Commands\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MessageApp.ViewModels.Commands.MyAction" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Commands\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="MessageApp.ViewModels.Notify">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
